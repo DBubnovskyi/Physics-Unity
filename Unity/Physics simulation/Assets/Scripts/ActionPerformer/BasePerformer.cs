@@ -7,9 +7,9 @@ using UnityEngine;
 
 namespace Assets.Scripts.ActionPerformer
 {
-    class BasePerformer : MonoBehaviour
+    public class BasePerformer : MonoBehaviour
     {
-        virtual public void PerfomeAction()
+        public virtual void PerfomeAction()
         {
             print($"{gameObject.name} action triggered");
         }

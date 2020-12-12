@@ -13,10 +13,15 @@ namespace Assets.Scripts.ActionPerformer
 
         void OnMouseEnter()
         {
-            Hover.ForEach(x => x.SetActive(!x.activeSelf));
+            ToggleVisibility();
         }
 
         void OnMouseExit()
+        {
+            ToggleVisibility();
+        }
+
+        void ToggleVisibility()
         {
             Hover.ForEach(x => x.SetActive(!x.activeSelf));
         }
