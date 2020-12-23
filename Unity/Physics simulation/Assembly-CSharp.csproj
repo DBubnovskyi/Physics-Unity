@@ -74,9 +74,12 @@
     <Compile Include="Assets\Asset Store\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\Asset Store\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Scripts\ActionPerformer\BasePerformer.cs" />
+    <Compile Include="Assets\Scripts\ActionPerformer\LoadScene.cs" />
     <Compile Include="Assets\Scripts\ActionPerformer\MouseHover.cs" />
     <Compile Include="Assets\Scripts\ActionPerformer\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\ActionPerformer\Switch.cs" />
+    <Compile Include="Assets\Scripts\ActionPerformer\ToggleVisibility.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraMouseRotate.cs" />
     <Compile Include="Assets\Scripts\HideOnPlay.cs" />
     <None Include="Assets\Asset Store\SpaceZeta_Spotlight\Info.txt" />
     <Reference Include="UnityEngine">
